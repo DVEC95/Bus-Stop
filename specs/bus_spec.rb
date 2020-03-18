@@ -18,4 +18,8 @@ class BusTest < MiniTest::Test
     assert_equal("Ocean Terminal", @bus.destination)
   end
 
+  def test_drive
+    assert_equal("This bus is for Ocean Terminal.", @bus.drive)
+  end
+
 end

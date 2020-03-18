@@ -8,7 +8,7 @@ class Bus
   end
 
   def drive
-    return "Heading off to #{@destination}!"
+    return "This bus is for #{@destination}."
   end
 
 end
